@@ -11,7 +11,8 @@ namespace Sudoku2
         static void Main(string[] args)
         {
             int[,] sudoku = new int[9,9];
-            List<int>[] numPool = new List<int>[4]; //0 - Horizontal, 1 vertical, 2 square, 3 finalChoice
+            List<int>[] numPool = new List<int>[4]; 
+            //0 - Horizontal, 1 vertical, 2 square, 3 finalChoice
             int[,] boxMinMax = new int[2,2];
 
 
